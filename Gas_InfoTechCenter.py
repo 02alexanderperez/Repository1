@@ -5,6 +5,15 @@ import random
 def gasLevelGauge():
     gasLevelList =["Empty","Low","Quarter Tank","Half Tank","Three Quarter Tank","Full Tank"]
     currentGasLevel = random.choice(gasLevelList)
-    print(currentGasLevel)
+    #print(currentGasLevel)
+    return currentGasLevel
 
-gasLevelGauge()
+
+
+#Create If-ELIF-ELSE statements using Comparative Operators to display gas level messages
+
+def gasLevelAlert():
+    if gasLevelAlert()  == "Empty":
+        print("**WARNING**\n *No Gas*\n Calling Emergency Contact")
+
+#gasLevelAlert()
