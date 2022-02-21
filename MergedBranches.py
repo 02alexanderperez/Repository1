@@ -1,20 +1,27 @@
+# Programmer: Alexander Perez
+# Date:2/21/22
+#Version: 1.1
+
+
+#Libraries Imported Here
 from time import sleep#Print to one line with time delay between prints
 import colorama
+import random
 from colorama import Fore, Back, Style
 colorama.init(strip=False, autoreset=True)
 
-
+#WELCOME BRANCH
 # Code Name - Hornet
 
 print("\033[1;34m Welcome To Hornets InfoTech Center! \n");sleep(1.5)
-print(Fore.WHITE + "Hornet's Operating System Booting Up");sleep(2.0)
+print(Fore.WHITE + "Hornet's Operating System Booting Up");sleep(0.6)
 print(Fore.RED + "Initializing.");sleep(0.5)
 print(Fore.RED + " Initializing..");sleep(0.5)
 print(Fore.RED + "  Initializing...\n");sleep(0.5)
 
 # GAS BRANCH
 
-import random
+
 # Gas Level Function
 def gasLevelGauge():
     gasLevelList =["Empty","Low","Quarter Tank","Half Tank","Three Quarter Tank","Full Tank"]
